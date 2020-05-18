@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+    .news-container {
+        perspective: 800px;
+        animation-name: anime;
+        width: 100%;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: space-between;
+    }
+        .qish {
+            animation: anime 1s;
+            position: relative;
+            width: 300px;
+            text-decoration: none;
+            color: initial;
+            display: inline-block;
+        }
+        .bmw {
+            animation: anime 1s;
+            position: relative;
+            width: 300px;
+            text-decoration: none;
+            color: initial;
+            display: inline-block;
+        }
+            .a {
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 0;
+                
+                
+                
+                left: 0;
+            }
+            img{
+                object-fit: fill;
+                height: 200px;
+                width: 100%;
+                box-shadow: 10px 10px 100px black ;
+            }
+            
+@keyframes anime {
+    from{
+        transform: rotateY(50deg);
+    }
+    to {
+        transform: rotateY(0deg);
+
+    } 
+}
