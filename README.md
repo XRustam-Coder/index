@@ -1,2 +1,2 @@
-# index
+# news
 # news
